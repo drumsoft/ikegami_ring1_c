@@ -1,0 +1,17 @@
+「池上彰の学べるニュース」に登場した、一見コンパイルできなそうな「円描画プログラムのようなもの」
+
+https://twitpic.com/blv07x
+http://otsune.tumblr.com/post/38058848909/studio-h
+http://togetter.com/li/65572/
+
+をコンパイルして、円描画させた。
+
+original.jpg: 番組のキャプチャ画像
+ring1.png: 出力画像
+
+やった事
+ * studio.h を追加
+   * math.h を先行してインクルード
+   * main 関数の開始行・終了行を書き換えるマクロ追加
+ * 出力を graph コマンド(plotutils)で画像化
+
